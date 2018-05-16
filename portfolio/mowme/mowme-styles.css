@@ -1,0 +1,94 @@
+
+
+    	body {
+    		background: url(images/grass.png) no-repeat center center fixed; 
+  			-webkit-background-size: cover;
+  			-moz-background-size: cover;
+  			-o-background-size: cover;
+  			background-size: cover;
+    	}
+
+    	.nav-border-contractor {
+    		border-bottom: 2px solid red;
+    	}
+
+    	.nav-border-user {
+    		border-bottom: 2px solid blue;
+    	}
+    	
+    	#main-view {
+    		width: 400px;
+    		text-align: center;
+    		margin: 100px auto 0 auto;
+    	}
+    	.smaller {
+    		width: 200px;
+    		margin: 0 auto;
+    	}
+
+    	.midsize {
+    		width: 250px;
+    		margin: 0 auto;
+    	}
+
+    	.forms {
+    		margin: 25px auto 25px auto;
+    	}
+
+    	#user-login-form {
+    		display: none;
+    	}
+
+    	.toggleUser {
+    		color: blue !important;
+    	}
+
+    	input {
+    		text-align: center;
+    	}
+
+    	#user-signup {
+    		display: none;
+    	}
+
+    	#contractor-signup {
+    		color: blue !important;
+    	}
+
+    	#contractor-login {
+    		color: blue !important;
+    	}
+
+    	#contractor-signup-form {
+    		display: none;
+    	}
+
+    	#contractor-login-form {
+    		display: none;
+    	}
+
+    	.contractor-divs {
+    		border: 1px solid red;
+    		border-radius: 10px;
+    	}
+
+    	.user-divs {
+    		border: 1px solid blue;
+    		border-radius: 10px;
+    	}
+
+    	.forms {
+    		padding: 25px;
+    	}
+
+        .user-icon {
+            margin-right: 10px;
+            font-size: 1.5em;
+        }
+        #navbarMessage {
+            font-size: 0.5em;
+            text-align: center;
+            color: grey;
+        }
+
+

@@ -1,0 +1,66 @@
+[26-Apr-2018 15:18:45 UTC] PHP Fatal error:  Uncaught exception 'SelfTestExceptions' in /home/nerdypil/public_html/portfolio/wp/wp-content/plugins/w3-total-cache/lib/W3/AdminEnvironment.php:15
+Stack trace:
+#0 phar:///usr/bin/wp/vendor/wp-cli/eval-command/src/Eval_Command.php(37) : eval()'d code(1): W3_AdminEnvironment->fix_in_wpadmin(Object(W3_Config), true)
+#1 phar:///usr/bin/wp/vendor/wp-cli/eval-command/src/Eval_Command.php(37): eval()
+#2 [internal function]: Eval_Command->__invoke(Array, Array)
+#3 phar:///usr/bin/wp/php/WP_CLI/Dispatcher/CommandFactory.php(89): call_user_func(Array, Array, Array)
+#4 [internal function]: WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure}(Array, Array)
+#5 phar:///usr/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php(425): call_user_func(Object(Closure), Array, Array)
+#6 phar:///usr/bin/wp/php/WP_CLI/Runner.php(353): WP_CLI\Dispatcher\Subcommand->invoke(Array, Array, Array)
+#7 phar:///usr/bin/wp/php/WP_CLI/Runner.php(376): WP_CLI\Runner->run_command(Array, Array)
+#8 phar:///usr/bin/wp/php/WP_CLI/Runner.php(83): WP in /home/nerdypil/public_html/portfolio/wp/wp-content/plugins/w3-total-cache/lib/W3/AdminEnvironment.php on line 15
+[26-Apr-2018 15:18:50 UTC] PHP Fatal error:  Uncaught exception 'SelfTestExceptions' in /home/nerdypil/public_html/portfolio/wp/wp-content/plugins/w3-total-cache/lib/W3/AdminEnvironment.php:15
+Stack trace:
+#0 phar:///usr/bin/wp/vendor/wp-cli/eval-command/src/Eval_Command.php(37) : eval()'d code(1): W3_AdminEnvironment->fix_in_wpadmin(Object(W3_Config), true)
+#1 phar:///usr/bin/wp/vendor/wp-cli/eval-command/src/Eval_Command.php(37): eval()
+#2 [internal function]: Eval_Command->__invoke(Array, Array)
+#3 phar:///usr/bin/wp/php/WP_CLI/Dispatcher/CommandFactory.php(89): call_user_func(Array, Array, Array)
+#4 [internal function]: WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure}(Array, Array)
+#5 phar:///usr/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php(425): call_user_func(Object(Closure), Array, Array)
+#6 phar:///usr/bin/wp/php/WP_CLI/Runner.php(353): WP_CLI\Dispatcher\Subcommand->invoke(Array, Array, Array)
+#7 phar:///usr/bin/wp/php/WP_CLI/Runner.php(376): WP_CLI\Runner->run_command(Array, Array)
+#8 phar:///usr/bin/wp/php/WP_CLI/Runner.php(83): WP in /home/nerdypil/public_html/portfolio/wp/wp-content/plugins/w3-total-cache/lib/W3/AdminEnvironment.php on line 15
+[26-Apr-2018 15:18:55 UTC] PHP Fatal error:  Uncaught exception 'SelfTestExceptions' in /home/nerdypil/public_html/portfolio/wp/wp-content/plugins/w3-total-cache/lib/W3/AdminEnvironment.php:15
+Stack trace:
+#0 phar:///usr/bin/wp/vendor/wp-cli/eval-command/src/Eval_Command.php(37) : eval()'d code(1): W3_AdminEnvironment->fix_in_wpadmin(Object(W3_Config), true)
+#1 phar:///usr/bin/wp/vendor/wp-cli/eval-command/src/Eval_Command.php(37): eval()
+#2 [internal function]: Eval_Command->__invoke(Array, Array)
+#3 phar:///usr/bin/wp/php/WP_CLI/Dispatcher/CommandFactory.php(89): call_user_func(Array, Array, Array)
+#4 [internal function]: WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure}(Array, Array)
+#5 phar:///usr/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php(425): call_user_func(Object(Closure), Array, Array)
+#6 phar:///usr/bin/wp/php/WP_CLI/Runner.php(353): WP_CLI\Dispatcher\Subcommand->invoke(Array, Array, Array)
+#7 phar:///usr/bin/wp/php/WP_CLI/Runner.php(376): WP_CLI\Runner->run_command(Array, Array)
+#8 phar:///usr/bin/wp/php/WP_CLI/Runner.php(83): WP in /home/nerdypil/public_html/portfolio/wp/wp-content/plugins/w3-total-cache/lib/W3/AdminEnvironment.php on line 15
+[26-Apr-2018 15:19:02 UTC] PHP Fatal error:  Uncaught exception 'SelfTestExceptions' in /home/nerdypil/public_html/portfolio/wp/wp-content/plugins/w3-total-cache/lib/W3/AdminEnvironment.php:15
+Stack trace:
+#0 phar:///usr/bin/wp/vendor/wp-cli/eval-command/src/Eval_Command.php(37) : eval()'d code(1): W3_AdminEnvironment->fix_in_wpadmin(Object(W3_Config), true)
+#1 phar:///usr/bin/wp/vendor/wp-cli/eval-command/src/Eval_Command.php(37): eval()
+#2 [internal function]: Eval_Command->__invoke(Array, Array)
+#3 phar:///usr/bin/wp/php/WP_CLI/Dispatcher/CommandFactory.php(89): call_user_func(Array, Array, Array)
+#4 [internal function]: WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure}(Array, Array)
+#5 phar:///usr/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php(425): call_user_func(Object(Closure), Array, Array)
+#6 phar:///usr/bin/wp/php/WP_CLI/Runner.php(353): WP_CLI\Dispatcher\Subcommand->invoke(Array, Array, Array)
+#7 phar:///usr/bin/wp/php/WP_CLI/Runner.php(376): WP_CLI\Runner->run_command(Array, Array)
+#8 phar:///usr/bin/wp/php/WP_CLI/Runner.php(83): WP in /home/nerdypil/public_html/portfolio/wp/wp-content/plugins/w3-total-cache/lib/W3/AdminEnvironment.php on line 15
+[26-Apr-2018 15:19:08 UTC] PHP Fatal error:  Uncaught exception 'SelfTestExceptions' in /home/nerdypil/public_html/portfolio/wp/wp-content/plugins/w3-total-cache/lib/W3/AdminEnvironment.php:15
+Stack trace:
+#0 phar:///usr/bin/wp/vendor/wp-cli/eval-command/src/Eval_Command.php(37) : eval()'d code(1): W3_AdminEnvironment->fix_in_wpadmin(Object(W3_Config), true)
+#1 phar:///usr/bin/wp/vendor/wp-cli/eval-command/src/Eval_Command.php(37): eval()
+#2 [internal function]: Eval_Command->__invoke(Array, Array)
+#3 phar:///usr/bin/wp/php/WP_CLI/Dispatcher/CommandFactory.php(89): call_user_func(Array, Array, Array)
+#4 [internal function]: WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure}(Array, Array)
+#5 phar:///usr/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php(425): call_user_func(Object(Closure), Array, Array)
+#6 phar:///usr/bin/wp/php/WP_CLI/Runner.php(353): WP_CLI\Dispatcher\Subcommand->invoke(Array, Array, Array)
+#7 phar:///usr/bin/wp/php/WP_CLI/Runner.php(376): WP_CLI\Runner->run_command(Array, Array)
+#8 phar:///usr/bin/wp/php/WP_CLI/Runner.php(83): WP in /home/nerdypil/public_html/portfolio/wp/wp-content/plugins/w3-total-cache/lib/W3/AdminEnvironment.php on line 15
+[26-Apr-2018 15:19:15 UTC] PHP Fatal error:  Uncaught exception 'SelfTestExceptions' in /home/nerdypil/public_html/portfolio/wp/wp-content/plugins/w3-total-cache/lib/W3/AdminEnvironment.php:15
+Stack trace:
+#0 phar:///usr/bin/wp/vendor/wp-cli/eval-command/src/Eval_Command.php(37) : eval()'d code(1): W3_AdminEnvironment->fix_in_wpadmin(Object(W3_Config), true)
+#1 phar:///usr/bin/wp/vendor/wp-cli/eval-command/src/Eval_Command.php(37): eval()
+#2 [internal function]: Eval_Command->__invoke(Array, Array)
+#3 phar:///usr/bin/wp/php/WP_CLI/Dispatcher/CommandFactory.php(89): call_user_func(Array, Array, Array)
+#4 [internal function]: WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure}(Array, Array)
+#5 phar:///usr/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php(425): call_user_func(Object(Closure), Array, Array)
+#6 phar:///usr/bin/wp/php/WP_CLI/Runner.php(353): WP_CLI\Dispatcher\Subcommand->invoke(Array, Array, Array)
+#7 phar:///usr/bin/wp/php/WP_CLI/Runner.php(376): WP_CLI\Runner->run_command(Array, Array)
+#8 phar:///usr/bin/wp/php/WP_CLI/Runner.php(83): WP in /home/nerdypil/public_html/portfolio/wp/wp-content/plugins/w3-total-cache/lib/W3/AdminEnvironment.php on line 15

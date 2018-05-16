@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <title>Mow-Me landing Page</title>
+
+    <style type="text/css">
+
+      h1 {
+        margin: 15px 0 15px 0;
+      }
+
+      #list-div {
+        width: 90%;
+        margin-bottom: 75px;
+      }
+
+      #status {
+        color: green;
+      }
+
+      .status2 {
+        margin-right: 15px;
+      }
+
+      #button-holder {
+        width: 150px;
+        margin: 0 auto;
+        margin-top: 35px;
+      }
+
+      .right {
+        float: right;
+      }
+
+  </style>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Mow-Me landing page</h1>
+    <p>As with most of the projects I create, this app is borne from my own need.</p> 
+    <p>As a person that traveled a lot at the start of this year, I realized (while in Boston) that I didn't have anyone set up to take care of my lawn before I left on an extended trip. I had to end up researching, contacting, vetting, and choosing a yard service in Dallas... from the eastern seaboard. It took me about a month before I managed to get someone "scheduled" to mow my yard.</p>
+    <p>I realized that I may not be the only one in this predicament. Wouldn't it be great to be able to log onto an app, type in your address, confirm service details, and with one press of a button send a short-notice mowing request out to numerous services? You can choose the lowest bid, the highest rated, or the earliest appointment. Read reviews/ratings right there, and have peace of mind your yard is taken care of.</p>
+    <hr>
+<div class="container" id="list-div">
+  <h2>Development Status: <span id="status">In Production</span>
+    <a href="https://nerdypilot.com/portfolio/mowme/" class="btn btn-primary right" data-toggle="tooltip" title="some features may/may not work since this is being developed live as you visit the site">View project</a>
+  </h2>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col" colspan="1">due</th>
+      <th scope="col" colspan="1">done</th>
+      <th scope="col">description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table-secondary">
+      <td colspan="1"></td>
+      <td colspan="1">4/26</td>
+      <td>Start Project</td>
+    </tr>
+    <tr class="table-secondary">
+      <td colspan="1">4/27</td>
+      <td colspan="1">4/27</td>
+      <td>Create basic DB structure, log in and sign up form elements, basic redirect shell.</td>
+    </tr>
+    <tr class="table-secondary">
+      <td colspan="1">4/30</td>
+      <td colspan="1">5/1</td>
+      <td>Finish DB security, build rough UI, submit new job & list job form pages.</td>
+    </tr>
+    <tr class="table-secondary">
+      <td colspan="1">5/1</td>
+      <td colspan="1">5/2</td>
+      <td>Complete form dialogs, build: contractor details page, customer bid review page. All pages built.</td>
+    </tr>
+    <tr class="table-secondary">
+      <td colspan="1">5/3</td>
+      <td colspan="1">5/3</td>
+      <td>Connect database tables, code out interaction logic, test website functionality.</td>
+    </tr>
+    <tr class="table-secondary">
+      <td colspan="1">5/4</td>
+      <td colspan="1">5/4</td>
+      <td>Clean up and standardize code across all pages, clean comments, minor formatting.</td>
+    </tr>
+    <tr class="table-secondary">
+      <td colspan="1">5/5</td>
+      <td colspan="1">5/5</td>
+      <td>Cinco de Mayo weekend!!</td>
+    </tr>
+    <tr class="table-secondary">
+      <td colspan="1">5/7</td>
+      <td colspan="1">5/7</td>
+      <td>Create connection to Google maps API, display map satellite image of selected address, confirm, submit request.</td>
+    </tr>
+    <!-- <tr>
+      <td colspan="1">5/9</td>
+      <td colspan="1">--</td>
+      <td>Estimate selected area square footage, update displays on bid/status/accept pages</td>
+    </tr> -->
+    <tr class="table-secondary">
+      <td colspan="1">5/9</td>
+      <td colspan="1">5/9</td>
+      <td>Add contractor manual search functions.</td>
+    </tr>
+    <tr class="table-secondary">
+      <td colspan="1">5/10</td>
+      <td colspan="1">5/10</td>
+      <td>Clean up final rendering, tidy things up, Mowme v1.0 completed.</td>
+    </tr>
+    <tr class="table-primary">
+      <td colspan="1">--</td>
+      <td colspan="1">--</td>
+      <td>User testing</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<!-- 
+production, version 2.0 features
+add payment portal
+confirm square footage for service (subtract out home from 'square')
+editable maps for zoom in/out
+-->
+  
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip(); 
+      });
+    </script>
+  </body>
+</html>
