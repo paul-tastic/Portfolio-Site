@@ -16,6 +16,7 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <div id="smaller-container"	class="container-fluid hidden"> 
+
 	<p id="top-hint">This content is WAY better on a computer. It&#8217;s worth the wait. Make it happen.</p>
 	<p id="mid-hint"><a href="mailto:?subject=check out this portfolio site!&body=http://www.dotvector.com/paul/portfolio-2018.html">Click here to send an email link of this page to your computer</a></p>
 	<div id="hint"></div>
@@ -602,9 +603,10 @@
 			console.log(height);
 
 			if (width < 1000) {
-       		 $("#big-old-container").hide();
-       		 $('.navbar').hide();
-       		 $("#smaller-container").removeClass('hidden');
+				window.location.replace("http://wordpress.nerdypilot.com");
+       		 // $("#big-old-container").hide();
+       		 // $('.navbar').hide();
+       		 // $("#smaller-container").removeClass('hidden');
 
        		 // if (width > 1000) {
        		 // 	// on computer, just not full screen

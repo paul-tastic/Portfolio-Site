@@ -9,8 +9,7 @@ ini_set('display_errors', 1);
 	$error = "";
 	$link = mysqli_connect("localhost", "nerdypil_user1", "password47", "nerdypil_mowme");
 
-// check if need to log out, or if still logged in and need to redirect to appropriate account page
-
+	// check if need to log out, or if still logged in and need to redirect to appropriate account page
 	if (array_key_exists("logout", $_GET)) {
 		// log user out
 		unset($_SESSION);
@@ -41,7 +40,7 @@ ini_set('display_errors', 1);
 	 		header("Location: ".$landing_page);
 	 	}
 
-//submit button pressed, check for errors, empty fields
+	//submit button pressed, check for errors, empty fields
 	if (array_key_exists("submit", $_POST)) {
 
 		if (mysqli_connect_error()) {
@@ -77,7 +76,7 @@ ini_set('display_errors', 1);
 			$error = "<p>There were error(s) in your form:</p>".$error;
 
 		} else {
-//field error check complete, no errors, now parse user/contractor, add new user info or log in
+		//field error check complete, no errors, now parse user/contractor, add new user info or log in
 			
 			if ($_POST['signup'] == "1" OR $_POST['signup'] == "3") {
 			// User/Contractor - sign up form
@@ -304,28 +303,18 @@ ini_set('display_errors', 1);
 
     </style>
   </head>
+
   <body>
- 
-<nav class="navbar fixed-top nav-border-user bg-light" id="navbar">
-  <a class="navbar-text" id="contractor-login-default">Contractor? <span id="contractor-signup">Sign Up</span> / <span id="contractor-login">Sign In </span>Here</a>
+	<nav class="navbar fixed-top nav-border-user bg-light" id="navbar">
+	  <a class="navbar-text" id="contractor-login-default">Contractor? <span id="contractor-signup">Sign Up</span> / <span id="contractor-login">Sign In </span>Here</a>
 
-  <span id="navbarMessage"><?php echo $navbarMessage ?></span>
+	  <span id="navbarMessage"><?php echo $navbarMessage ?></span>
 
-  <span class="navbar-text right" id="user-login">Already registered? <a class="toggleUser">Log In!</a></span>
-  <span class="navbar-text right" id="user-signup">Need to register? <a class="toggleUser">Sign Up!</a></span>
-</nav>
-
-
-
+	  <span class="navbar-text right" id="user-login">Already registered? <a class="toggleUser">Log In!</a></span>
+	  <span class="navbar-text right" id="user-signup">Need to register? <a class="toggleUser">Sign Up!</a></span>
+	</nav>
 
   	<div class="container-fluid" id="main-view">
-
-  		<!-- <div id="tip-box" class="d-none d-md-block">
-			<h4>Visitors</h4>
-			<p>feel free to register as a new user, or use login info below.</p>
-			<p>user: nerdypilot@is-hired.com // password</p>
-			<p>contractor: nerdypilot@contractor.com // password</p>
-		</div> -->
 		<div id="c-box" class="d-none d-md-block">&#9400;2018 Paul McNeme, all rights reserved.
 		</div>
   		<div class="row">
@@ -400,9 +389,6 @@ ini_set('display_errors', 1);
 				</div>
 				<!-- <p>Not registered? <a class="toggleForms">Sign Up</a></p> -->
 				</form>
-
-
-
 				<!-- Contractor Sign Up Form -->
 				<form method = "post" class="forms contractor-divs" id="contractor-signup-form">
 					<h3>Contractor Sign Up Form</h3>
@@ -429,7 +415,6 @@ ini_set('display_errors', 1);
 						<input type="submit" class="btn btn-success" name="submit" value="Sign Up!">
 					</div>
 				</form>
-		
 	  		</div>
 			
 	  		<div class="col-md-7 offset-md-1" id="intro-screen-words">
@@ -464,19 +449,16 @@ ini_set('display_errors', 1);
 		  		</div>
 	  		</div>
 	  	</div> <!-- row -->
-</div>
+	</div>
 
-<!-- <?php 
-if(!isset($_COOKIE["user"])) {
-     		echo "Cookie named 'user' is not set!";
-		} else {
-     		echo "Cookie 'user' is set!<br>";
-     		echo "Value is: " . $_COOKIE["user"];
-		}
-?> -->
-    <!-- Optional JavaScript -->
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<!-- <?php 
+	if(!isset($_COOKIE["user"])) {
+	     		echo "Cookie named 'user' is not set!";
+			} else {
+	     		echo "Cookie 'user' is set!<br>";
+	     		echo "Value is: " . $_COOKIE["user"];
+			}
+	?> -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
@@ -485,7 +467,6 @@ if(!isset($_COOKIE["user"])) {
 
 		$(document).on('click', '#user-login', function() {
 			$('#contractor-login-default').html('Contractors: Need to register? <span id="contractor-signup">Sign Up</span> / <span id="contractor-login">Sign In </span>Here</a>');
-
     		$('#user-signup-form').hide();
     		$('#user-login-form').show();
     		$('#user-signup').show();
@@ -496,7 +477,6 @@ if(!isset($_COOKIE["user"])) {
     		$('#navbar').addClass('nav-border-user');
     		$('#user-words').show();
     		$('#contractor-words').hide();
-
 		});
 
 		$(document).on('click', '#user-signup', function() {
@@ -539,8 +519,6 @@ if(!isset($_COOKIE["user"])) {
     		$('#user-words').hide();
     		$('#contractor-words').show();
     	});
-
-
     </script>
   </body>
 </html>
